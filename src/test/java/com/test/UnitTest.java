@@ -45,7 +45,7 @@ public class UnitTest {
 
         long c = a * b;
         long r = new Demo1().intMultiply(a, b);
-        Assert.assertTrue("檢查intMultiply(a, b)函数返回值是否正确2", c == r);
+        Assert.assertTrue("檢查intMultiply(a, b)函数返回值是否正确", c == r);
     }
 
     @Test
