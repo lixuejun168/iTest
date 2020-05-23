@@ -35,7 +35,7 @@ public class UnitTest {
 
         int c = a - b;
         int r = new Demo1().intSubtract2(a, b);
-        Assert.assertTrue("檢查intSubtract2(a, b)函数返回值是否正确", c == r);
+        Assert.assertTrue("檢查intSubtract2(a, b)函数返回值是否正确。", c == r);
     }
 
     @Test
