@@ -6,9 +6,7 @@ import org.junit.Test;
 
 import java.util.Random;
 
-/**
- * Created by jizhi.qian on 2018/11/14.
- */
+
 public class UnitTest {
     @Test
     public void testAddInt(){
