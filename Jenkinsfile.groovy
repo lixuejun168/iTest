@@ -11,7 +11,7 @@ pipeline {
 
             steps {
 
-                git([url: 'git@github.com:lixuejun168/iTest.git', branch: 'master'])
+                git([url: 'git@github.com:lixuejun168/iTest.git', branch: 'bug-fix'])
                 sh "mvn clean install test"
             }
 
